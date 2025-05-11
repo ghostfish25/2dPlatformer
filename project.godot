@@ -11,5 +11,14 @@ config_version=5
 [application]
 
 config/name="2dPlatformer"
+run/main_scene="uid://e52gnlp0p7om"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/scale=4.0
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
